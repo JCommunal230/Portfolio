@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio de Jérémy</title>
+    <!--Style-->
+    <link href="styles/Homepage.css" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" type="image/ico" href="img/lis.png">
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet"> 
+
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <header id ="header">
+      <nav>
+        <ul class ="menu">
+          <li><a data-page = "intro" href ="Homepage_FR.html">Accueil</a></li>
+          <li><a data-page = "experience" href ="#experience">Expériences</a></li>
+          <li><a data-page = "education" href ="#education">Éducation</a></li>
+          <li><a data-page = "skills" href ="#skills">Compétences</a></li>
+          <li><a data-page = "projects" href ="#projects">Projets</a></li>
+          <li><a data-page = "hobbies" href ="#hobbies">Intérêts</a></li>
+          <li><a data-page = "contact" href ="#contact">Contact</a></li>          
+        </ul>
+        <ul class="switch">
+          <li><a class="enabled"><img src ="Logos/france.jpg" alt ="French flag" title ="French" width="30" height="20"></a></li>
+          <li><a href ="Homepage_EN.html"><img src ="Logos/great_britain.jpg" alt ="Great Britain flag" title="English" width="30" height="20"></a></li>
+        </ul>
+      </nav> 
+    </header>  
+    <div id="intro" data-index="1" class="reveal"> 
+      <div class="home reveal-1">
+        <div class ="introduction reveal-3" id ="introduction">
+         <span class="one">Salut !</span><span class="two"> Je m'appelle <span class="name">Jérémy</span></span><span class="three"> et ma passion est le </span> <span class="four">développement Web.</span>       
+        </div>
+        <div class="photo reveal-2">
+          <img src="img/bleu.png" alt="A dashing photograph of myself" width="210" height="280">
+          <div class="back"></div>
+        </div>
+        <div class ="bio reveal-3 hidden" id="bio">
+         <p> Après avoir obtenu mon diplôme d'ingénieur en chimie, j'ai eu du mal à décrocher un emploi. C'est durant cette période que j'ai découvert le plaisir de la programmation et plus précisément du<span class="webdev"> développement Web</span>. La logique des langages de programmation, les innombrables voies et ressources offertes par le web et la possibilité de voir ma propre création se concrétiser sont parmi les aspects qui m'ont convaincu de changer de carrière. <span class="webdev">J'apprends quelque chose de nouveau tous les jours et j'adore ça !</span></p>   
+        </div>
+      </div>      
+      <div class="more reveal-3">
+        <div class="button" id="button">
+          <a onclick="aboutMe()">Qui suis-je ?</a>
+        </div>
+        <div id="scroll">
+          <a href="#experience">DÉFILER POUR EN SAVOIR PLUS</a>
+        </div>
+      </div>
+    </div>
+    <div id="experience" data-index="2" class="reveal">
+        <div class="bloc_img reveal-1">
+          <img src ="img/meeting-2284501_1920.jpg" alt="Photo of a meeting" width="1000" height="700">
+        </div>
+        <h2 class="reveal-2">EXPÉRIENCES</h2>
+        <div class="reveal-3"> 
+          <h3 class="none">Ingénieur stagiaire en laboratoire de synthèse</h3><img src="Logos/Logo-LIST.png" class="list" alt="Logo LIST" width=170 height=70>
+          <div class="header4">
+            <h4>Luxembourg Institute of Science and Technology (LIST) ● Käerjeng (Luxembourg) ● Sept. 2017 - Juil. 2018</h4>
+          </div>
+          <p>Création d’un biomatériau à base de nanocellulose et hémicellulose avec une réaction « click » Thiol-ène<br>
+          ● Recherche et développement d’une voie de synthèse viable<br>
+          ● Application de différents traitements tels que la dialyse, la centrifugation et la lyophilisation<br>
+          ● Analyse des produits synthétisés par RMN, IRTF et ATG
+          </p>
+          <h3>Ingénieur stagiaire</h3><img src="Logos/Logo-LTDS.jpg" class="ltds" alt="Logo LTDS" width=150 height=50>
+          <div class="header4">
+            <h4>Laboratoire de Tribologie et Dynamique des Systèmes (LTDS) ● Ecully (France) ● Avril 2016 - Oct. 2016</h4>
+          </div>          
+          <p>Création de surfaces superoléophobiques sur acier inoxydable par laser femtoseconde
+          <br>
+          ● Création des échantillons et de la méthode de modification de la surface<br>
+          ● Analyse de la surface et de son comportement (Interféromètre, microscope et angles de contact)<br>
+          </p>
+          <h3>Technicien stagiaire en laboratoire de synthèse</h3><img src="Logos/c2p2.png" class="c2p2" alt="Logo C2P2" width=150 height=45>
+          <div class="header4">
+            <h4>Chimie Catalyse Polymères et Procédés (C2P2) ● Villeurbanne (France) ● Avril 2014-Juin 2014</h4>  
+          </div>        
+          <p>Polymérisation de l’éthylène par catalyse Ziegler-Natta modifiée<br>
+          ● Synthèse sous atmosphère inerte<br>
+          ● Analyses DSC et SEC<br>
+          </p>
+          <h3>Technicien stagiaire en laboratoire analytique</h3><img src="Logos/Logo-Anses.jpg" class="anses" alt="Logo ANSES" width=150 height=60>
+          <div class="header4">
+            <h4>Agence Nationale du Médicament Vétérinaire (ANMV) ● Fougères (France) ● Juillet 2013- Août 2013</h4>
+          </div>
+          <p>Étude de la solubilité de médicaments en fonction de la dureté et du pH de l’eau<br>
+          ● Réalisation d’un plan d’expérience<br>
+          ● Préparation des solutions et observations sur 24h<br>
+          </p>
+          <h3>Employé au service commandes </h3><img src="Logos/Logo-Lactalis.png" class="lactalis" alt="Logo Lactalis" width=150 height=60>
+          <div class="header4">
+            <h4>Lactalis ● Bourgbarré (France) ● Juin-Août 2011/2012/2015</h4>
+          </div>
+          <p>
+          ● Lien entre les clients et la société<br>
+          ● Gestion des commandes et résolution d’incidents<br>
+          </p>
+        </div>
+        <div class="bloc_img2 reveal-1">
+        </div>
+    </div>
+    <div id="education" data-index="3" class="reveal">
+      <div class="bloc_img reveal-1">
+          <img src ="img/open-book-1428428_1920.jpg" alt="An open book" width="1035" height="780">
+      </div>
+      <h2>ÉDUCATION</h2>
+      <div class="reveal-2">        
+        <h3 class="none">Ingénieur en chimie - Master Matériaux</h3><img src="Logos/Logo-CPE.png" class="cpe" alt="Logo CPE" width=140 height=60><img src="Logos/Logo-UniLyon.gif" class="lyon1" alt="Logo Université Lyon 1" width=150 height=70> 
+        <div class="header4">
+          <h4>CPE Lyon & Université Lyon 1 ● Lyon (France) ● Septembre 2018</h4> 
+        </div>
+        <div class="header4">      
+          <h4>CPE Lyon ● École supérieure de chimie ● 2012-2016</h4>
+        </div>
+        <p>Matières principales : Chimie organique, Chimie Analytique, Génie des procédés<br>
+        Avec : Langues, Management<br>
+        ● Projet de création d’entreprise : création d’une entreprise fictive développant un produit dans le domaine paramédical<br>
+        ● Projet innovation : évaluation du réseau Alumni de CPE Lyon et proposition d’améliorations<br>
+        </p>        
+        <h4>Université Lyon 1 ● 2016</h4>
+        <p>Master en collaboration avec CPE Lyon sur l’élaboration et la caractérisation de matériaux dont notamment les polymères</p>
+        <h3>Classes préparatoires intégrées PCSI</h3>
+        <div class="header4">
+          <h4>Institution des Chartreux ● Lyon (France) ● 2010-2012</h4>
+        </div>
+      </div>
+    </div>
+    <div id="skills" data-index="4" class="reveal">
+      <div class="bloc_img reveal-1">
+          <img src ="img/software-developer-6521720_1920.jpg" alt ="A developper working" width="1115" height="650">
+        </div>
+      <h2 class="reveal-2">COMPÉTENCES</h2>    
+        <h3 class="reveal-3">Informatique</h3>   
+        <div class="it reveal-3">          
+          <div class="officepack">
+              <img src ="Logos/office.jpg" alt ="Logo office" width="30" height="30" class="flag">
+              <p><span> Pack Office</span></p>
+              <div class="bar"></div>
+          </div>
+          <div class="html">
+              <img src ="Logos/html.png" alt="Logo html" width="30" height="30" class="flag">
+              <p><span> HTML </span></p>
+              <div class="bar"></div>
+          </div>
+          <div class="css">
+              <img src ="Logos/css.svg" alt="Logo css" width="30" height="30" class="flag">
+              <p><span> CSS </span></p>
+              <div class="bar"></div>
+          </div>
+          <div class="javascript">
+              <img src ="Logos/javascript.png" alt ="Logo Javascript" width="30" height="30" class="flag">
+              <p><span> Javascript </span></p>
+              <div class="bar"></div>
+          </div>
+          <div class="java">
+              <img src ="Logos/java.png" alt="Logo Java" width="20" height="40" class="flag">
+              <p><span> Java </span></p>
+              <div class="bar"></div>
+          </div>
+          <div class="react">
+              <img src ="Logos/react.png" alt="Logo React" width="45" height="30" class="flag">
+              <p><span> React </span></p>
+              <div class="bar"></div>
+          </div>
+          <div class="python">
+              <img src ="Logos/python.png" alt="Logo Python" width="30" height="30" class="flag">
+              <p><span> Python </span></p>
+              <div class="bar"></div>
+          </div>         
+           <div class="sql">
+              <img src ="Logos/sql.png" alt="Logo SQL" width="30" height="30" class="flag">
+              <p><span> SQL </span></p>
+              <div class="bar"></div>
+          </div>
+        </div>
+      <div>
+        
+        <div class="languages reveal-3">                  
+            <h3 class="none">Langues</h3>
+            <div class="litterature reveal-1">
+             <img src ="img/literature-3091212_1920.jpg" alt="Picture of books" width="1115" height="700">
+            </div>  
+            <div class="french">
+              <img src ="Logos/france.jpg" alt ="French flag" width="30" height="20" class="flag">
+              <p><span> Français </span><span class="details"> Langue maternelle </span></p>
+              <div class="bar"></div>
+            </div>
+            <div class="english">
+              <img src ="Logos/great_britain.jpg" alt="Great Britain flag" width="30" height="20" class="flag">
+              <p><span> Anglais </span><span class="details"> Professionnel </span></p>
+              <div class="bar"></div>
+              <img src="Logos/Logo-CAE.png" alt="Logo CAE" id="cambridge" width=120 height=20>
+            </div>            
+            <div class="spanish">
+              <img src ="Logos/spain.webp" alt="Spanish flag" width="30" height="20" class="flag">
+              <p><span> Espagnol </span><span class="details"> Intermédiaire </span></p>
+              <div class="bar"></div>
+            </div>
+            <div class="german">
+              <img src ="Logos/germany.png" alt="German flag" width="30" height="20" class="flag">
+              <p><span> Allemand </span><span class="details"> Débutant </span></p>
+              <div class="bar"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" data-index="5" class="reveal">
+      <div class="bloc_img reveal-1">
+      </div>
+      <h2 class="reveal-2">PROJETS</h2>
+      <div class="projects_grid">
+        <div class="resume reveal-3">
+          <h3> CV en ligne </h3>
+          <div class="picture">
+            <img src ="img/Resume.png" alt="Online Resume" width="570" height="250">
+          </div>
+          <p class="notes"> " Mon premier projet fait avec HTML/CSS"</p>
+          <div class ="github">
+           <a href="https://github.com/JCommunal230/Resume" title="Profil GitHub" target="_blank"><img src="Logos/GitHub.svg" alt="Logo GitHub" width=16 height=16>  Lien GitHub</a>
+          </div>
+        </div>
+        <div class="mybuild reveal-3">
+          <h3> MyBuild </h3>
+          <div class="picture">
+            <img src ="img/Thresh_MyBuild_3.png" alt="MyBuild screenshot" width="570" height="250">
+          </div>
+          <p class="notes"> " Un site web fictif fait pour m'améliorer en HTML/CSS/JS "</p>
+          <div class ="github">
+           <a href="https://github.com/JCommunal230/MyBuild" title="Profil GitHub" target="_blank"><img src="Logos/GitHub.svg" alt="Logo GitHub" width=16 height=16>  Lien GitHub</a>
+        </div>
+        </div>
+        <div class="portfolio reveal-3">
+          <h3> Portfolio </h3>
+          <div class="picture">
+            <img src ="img/Portfolio.png" alt="Portfolio screenshot" width="570" height="250">
+          </div>
+          <p class="notes"> " Un projet fait pour augmenter ma visibilté et mon niveau en HTML/CSS/JS "</p>
+          <div class ="github">
+           <a href="https://github.com/JCommunal230/Portfolio" title="Profil GitHub" target="_blank"><img src="Logos/GitHub.svg" alt="Logo GitHub" width=16 height=16>  Lien GitHub </a>
+        </div>
+        </div>
+        <div class="rpg reveal-3">
+          <h3> À venir </h3>
+          <div class="picture construction">
+            <img src ="img/white.webp" alt="Under construction" width="570" height="250">
+          </div>
+          <p class="notes"> " Le prochain projet à venir pour m'entrainer en Java/Python "</p>
+        </div>
+      </div>
+    </div>
+    <div id="hobbies" data-index="6" class="reveal">
+      <div class="bloc_img reveal-1">        
+      </div>
+      <h2 class="reveal-2">INTÉRÊTS</h2>
+      <div class="hobby_grid">
+      <div class="codecombat reveal-3">
+        <h3> Guerrier dans CodeCombat </h3>
+       <div>
+          <img src ="img/hero.png" alt ="CodeCombat hero" width="165" height="232">
+        </div>
+        <ul>
+          <li> Ogres tués : 376 </li>
+          <li> Mages vaincus : 78 </li>
+          <li> Morts : <span class="death"> Beaucoup. </span></li>
+        </ul>
+      </div>      
+      <div class="handball reveal-3">
+        <h3> Ancien joueur de Handball </h3>
+       <div class="picture">
+          <img src ="img/handball.jpg" alt="Handball" width="350" height="232">
+        </div>
+        <ul>
+          <li> Années en club : 6 </li>
+          <li> Position : Toutes</li>
+          <li> Taux de victoire : Positif </li>
+        </ul>
+      </div>
+      <div class="piano reveal-3">
+        <h3>Pianiste maladroit</h3>
+        <div class="picture">
+         <img src ="img/piano.jpg" alt="A piano" width="300" height="232">
+        </div>
+        <ul>
+          <li> Oreille absolue : Non </li>
+          <li> Morceaux maitrisés : Quelques uns </li>
+        </ul>
+      </div>
+      <div class="cinema reveal-3">
+        <h3>Amateur de séries et de films</h3>
+       <div class="picture">
+          <img src ="img/theater.jpg" alt="Theaters" width="375" height="250">
+        </div>
+        <ul>
+          <li> Film préféré : The Dark Knight </li>
+          <li> Série préférée : Scrubs </li>
+          <li> En train de regarder : Mr Robot</li>
+          <li> Impatiemment attendu : Dune</li>
+        </ul>
+      </div>
+      <div class="book reveal-3">
+        <h3>Appréciateur de livres</h3>
+       <div class="picture">
+          <img src ="img/book.jpg" alt="Theaters" width="375" height="250">
+        </div>
+        <ul>
+          <li> Livre préféré : "Des Fleurs pour Algernon", Daniel Keyes </li>
+          <li> Genre préféré : Science fiction </li>
+          <li> En train de lire : "Les robots", Asimov</li>
+        </ul>
+      </div>
+      <div class="cycling reveal-3">
+        <h3> Vélo </h3>
+       <div class="picture">
+          <img src ="img/cycling.jpg" alt="Theaters" width="375" height="232">
+        </div>
+        <ul>
+          <li> Trois fois par semaine </li>
+          <li> Plus de 1000 km cette année </li>
+        </ul>
+      </div>
+    </div>
+    </div>    
+    <div id="contact" data-index="7" class="reveal">
+      <div class="bloc_img reveal-1">
+      </div>  
+      <h2 class="reveal-2">CONTACT</h2>    
+      <div class="info">        
+        <p class="reveal-3">
+          <img src="Logos/Logo-mail.png" alt="logo-mail" width=16 height =12>  <a href="mailto:jeremy.communal@cpe.fr">jeremy.communal@cpe.fr</a><br/>
+        </p>
+        <div class="linkedin reveal-3">
+           <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-communal-b919a0146/" title="Profil Linkedin" target="_blank"><img src="Logos/Logo-Linkedin.png" alt="Logo Linkedin" width=16 height=16>  Profil Linkedin </a>
+        </div>
+        <div class ="github reveal-3">
+           <a href="https://github.com/JCommunal230" title="Profil GitHub" target="_blank"><img src="Logos/GitHub.svg" alt="Logo GitHub" width=16 height=16>  Profil GitHub </a>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/Homepage.js"></script>
+  </body>
+</html>
